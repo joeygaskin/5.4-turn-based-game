@@ -1,54 +1,5 @@
-# frontend-scaffolding
+#5.4-turn-based-game - Jakes On A Plane
 
-#### How to get started
+"Jakes On A Plane" was my first collaborative project (working alongside Aaron Emery & J Scott Chapman). The idea of the project was to build a Final Fantasy style turn based game. So we decided to create a game based on a layer of "inside" jokes related to our Iron Yard instructor, Jake Smith, and marry it with the movie "Snakes On A Plane". Hence, the name. I was largely responsible for the design, doing a good bit of the graphics myself, while my peers worked effortlessly on functionality. We had a total of four days to complete it. This was also our first experience using GitHub to merge branches. 
 
-1. Start your own project folder with a git clone then git init
-
-    ```sh
-    cd ~/Code/
-    hub clone jacobthemyth/frontend-scaffolding NEWPROJECT
-    cd NEWPROJECT
-    rm -rf .git
-    git init
-    git add .
-    git commit -m "Initial commit"
-    ```
-
-2. Install prerequisites
-
-    ```sh
-    npm install
-    bower install
-    ```
-
-3. Start watching for changes and develop it!
-
-    ```sh
-    gulp
-    ```
-
-4. Ready to push your code to GitHub Pages?
-
-    ```sh
-    # build production assets
-    gulp deploy
-    ```
-
-#### Testing
-You will need to install the `testem` command line program:
-
-```sh
-brew install phantomjs
-npm install -g testem
-```
-
-Then in this project directory, you can run the tests:
-
-```sh
-testem # Runs the watcher that constantly reloads the tests
-testem ci # Runs the tests once
-```
-
-#### License
-
-MIT.
+![Jakes On A Plane](templates/assets/img/screen.png)
